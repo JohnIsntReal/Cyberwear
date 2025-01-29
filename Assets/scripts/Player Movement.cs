@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
     public UnityEvent OnInteract = new UnityEvent();
 
+    public GameObject minigame;
+
     
 
     void Start()
@@ -174,12 +176,14 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void PlayMinigame()
+    public void PlayMinigame()
     {
         print("play minigame for" + grabbedObject.gameObject.name);
         if (grabbedObject.gameObject.name == "computer")
         {
-            
+            Instantiate(minigame);
         }
     }
+
+
 }
