@@ -105,6 +105,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
+
     void TryGrab()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -152,7 +154,16 @@ public class PlayerMovement : MonoBehaviour
             //checks if the grabbed object has a minigame associated with it
             if(grabbedObject.tag == "interactable")
             {
-                PlayMinigame();
+                if(grabbedObject.gameObject.name == "computer")
+                {
+                    PlayMinigame();    
+                }
+                if(grabbedObject.gameObject.name == "tv")
+                {
+                    print("tv interact");
+                    GameObject child1 = grabbedObject.transform.GetChild(0).gameObject;
+                    child1.SetActive(!child1.activeSelf);
+                }
                 Release();
             }
         }
