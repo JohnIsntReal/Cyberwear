@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 290.4
     height: 427.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/textures and materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/textures and materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\unity projects\Cyberwear
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 65.400024}
-    m_SelectedIDs: 24650000
-    m_LastClickedID: 25892
-    m_ExpandedIDs: 00000000046500002c65000000ca9a3b
+    scrollPos: {x: 0, y: 5.4000244}
+    m_SelectedIDs: b8650000
+    m_LastClickedID: 26040
+    m_ExpandedIDs: 000000008a65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000004650000
+    m_ExpandedIDs: 000000008a650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0e39ffff3045ffff2c81ffff1cfbffff1e630000
+      m_ExpandedIDs: 1cfbffff28630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -901,9 +901,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.18536584, y: -1.54958, z: 14.655703}
+    m_Target: {x: -5.01654, y: -7.060085, z: 16.095243}
     speed: 2
-    m_Value: {x: -0.18536584, y: -1.54958, z: 14.655703}
+    m_Value: {x: -5.01654, y: -7.060085, z: 16.095243}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -949,13 +949,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09465784, y: 0.0005979175, z: 0.00014813915, w: 0.9954041}
+    m_Target: {x: 0.24236237, y: -0.2597711, z: 0.06772959, w: 0.9321944}
     speed: 2
-    m_Value: {x: 0.094667785, y: 0.00059798034, z: 0.00014815472, w: 0.99550873}
+    m_Value: {x: 0.24677669, y: -0.26058698, z: 0.06927851, w: 0.9308041}
   m_Size:
-    m_Target: 8.926761
+    m_Target: 12.694752
     speed: 2
-    m_Value: 8.926761
+    m_Value: 12.694752
   m_Ortho:
     m_Target: 0
     speed: 2
