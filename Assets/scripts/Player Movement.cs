@@ -28,7 +28,9 @@ public class PlayerMovement : MonoBehaviour
 
     public UnityEvent OnInteract = new UnityEvent();
 
-    public GameObject minigame;
+    private GameObject minigame;
+
+    public List<GameObject> minigames = new List<GameObject>();
 
     
 
@@ -48,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        minigame = minigames[Random.Range(0, minigames.Count)];
         // Handle jumping
         if (Input.GetButtonDown("Jump") && isGrounded)
         {

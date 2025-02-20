@@ -1544,7 +1544,7 @@ GameObject:
   - component: {fileID: 173915621}
   - component: {fileID: 173915620}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1678,7 +1678,7 @@ GameObject:
   - component: {fileID: 184638169}
   - component: {fileID: 184638168}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2628,7 +2628,7 @@ GameObject:
   - component: {fileID: 335054473}
   - component: {fileID: 335054472}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2844,7 +2844,7 @@ GameObject:
   - component: {fileID: 350065754}
   - component: {fileID: 350065753}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3309,7 +3309,7 @@ GameObject:
   - component: {fileID: 467968863}
   - component: {fileID: 467968862}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3680,7 +3680,7 @@ GameObject:
   - component: {fileID: 540098908}
   - component: {fileID: 540098907}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3851,7 +3851,7 @@ GameObject:
   - component: {fileID: 548963614}
   - component: {fileID: 548963613}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4480,7 +4480,7 @@ GameObject:
   - component: {fileID: 610161233}
   - component: {fileID: 610161232}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5012,7 +5012,7 @@ GameObject:
   - component: {fileID: 662660917}
   - component: {fileID: 662660916}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6363,7 +6363,7 @@ GameObject:
   - component: {fileID: 891456152}
   - component: {fileID: 891456151}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7168,7 +7168,7 @@ GameObject:
   - component: {fileID: 948643597}
   - component: {fileID: 948643596}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8521,7 +8521,7 @@ GameObject:
   - component: {fileID: 1130472408}
   - component: {fileID: 1130472407}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9315,7 +9315,7 @@ GameObject:
   - component: {fileID: 1246971974}
   - component: {fileID: 1246971973}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11209,7 +11209,7 @@ GameObject:
   - component: {fileID: 1482335309}
   - component: {fileID: 1482335308}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11348,7 +11348,7 @@ GameObject:
   - component: {fileID: 1484912987}
   - component: {fileID: 1484912986}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11722,7 +11722,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  minigame: {fileID: 7816184327703347015, guid: 2ad8dbf4cb4ecec469787a9464c204b5, type: 3}
+  minigames:
+  - {fileID: 7816184327703347015, guid: 2ad8dbf4cb4ecec469787a9464c204b5, type: 3}
 --- !u!114 &1505415819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12313,7 +12314,7 @@ GameObject:
   - component: {fileID: 1565254331}
   - component: {fileID: 1565254330}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15175,7 +15176,7 @@ GameObject:
   - component: {fileID: 1904430734}
   - component: {fileID: 1904430733}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15714,7 +15715,7 @@ GameObject:
   - component: {fileID: 1972728334}
   - component: {fileID: 1972728333}
   m_Layer: 3
-  m_Name: computer (1)
+  m_Name: computer
   m_TagString: interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16293,6 +16294,10 @@ PrefabInstance:
     - target: {fileID: 1154874645292710521, guid: 35eae7bb155f30e49bde10296caaa3c5, type: 3}
       propertyPath: m_Name
       value: setup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488439195567628051, guid: 35eae7bb155f30e49bde10296caaa3c5, type: 3}
+      propertyPath: m_Name
+      value: computer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17147,6 +17152,10 @@ PrefabInstance:
     - target: {fileID: 1154874645292710521, guid: 35eae7bb155f30e49bde10296caaa3c5, type: 3}
       propertyPath: m_Name
       value: setup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488439195567628051, guid: 35eae7bb155f30e49bde10296caaa3c5, type: 3}
+      propertyPath: m_Name
+      value: computer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
