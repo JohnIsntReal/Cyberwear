@@ -382,6 +382,7 @@
 "Assets/scripts/Interactables.cs"
 "Assets/scripts/MinigameHandler.cs"
 "Assets/scripts/Player Movement.cs"
+"Assets/scripts/Score.cs"
 "Assets/scripts/Third Person Camera.cs"
 -langversion:9.0
 

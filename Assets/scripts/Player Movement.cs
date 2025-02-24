@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+using TMPro;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody rb;
@@ -31,6 +31,11 @@ public class PlayerMovement : MonoBehaviour
     private GameObject minigame;
 
     public List<GameObject> minigames = new List<GameObject>();
+
+
+    public int score = 0;
+
+    public TextMeshProUGUI textComponent;
 
     
 
@@ -72,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
             ropeRenderer.SetPosition(0, transform.position);
             ropeRenderer.SetPosition(1, grabbedObject.transform.position);
         }
-
+        textComponent.text = score.ToString();
     }
 
     void FixedUpdate()
@@ -160,6 +165,7 @@ public class PlayerMovement : MonoBehaviour
                 if(grabbedObject.gameObject.name == "computer")
                 {
                     PlayMinigame();    
+                    score++;
                 }
                 if(grabbedObject.gameObject.name == "tv")
                 {
